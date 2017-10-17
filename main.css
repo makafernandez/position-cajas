@@ -1,0 +1,67 @@
+/* Organizando las cajas*/
+
+.contenedor {
+	position: relative;
+	
+}
+
+.caja_1 {
+	float: left;
+	margin-left: 50px;
+}
+
+.caja_2 {
+	float: left;
+	margin-left: 50px;
+}
+
+/*Armando la caja 1*/
+.roja {
+	width: 250px;
+	height: 250px;
+	background-color: crimson;
+	position: relative;
+}
+
+.morada {
+	width: 125px;
+	height: 125px;
+	background-color: rebeccapurple;
+	position: absolute;
+	left: 62.5px;
+	top: 62.5px;
+}
+
+.amarilla {
+	width: 62.5px;
+	height: 62.5px;
+	background-color: yellow;
+	position: absolute;
+	left: 62.5px;
+	top: 62.5px;
+}
+
+/* Armando la caja 2 */
+
+.azul {
+	width: 250px;
+	height: 250px;
+	background-color: darkblue;
+	position: relative;
+}
+
+.verde {
+	width: 125px;
+	height: 125px;
+	background-color: limegreen;
+	position: absolute;
+	left: 62.5px;
+	top: 62.5px;
+}
+
+.negra {
+	width: 62.5px;
+	height: 62.5px;
+	background-color: black;
+	position: absolute;
+}
